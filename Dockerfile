@@ -1,4 +1,4 @@
-FROM python:3.14.2
+FROM python:3.13.11
 
 RUN apt-get update && apt-get install -y curl
 RUN curl -sSL https://install.python-poetry.org | python3 - --version 2.3.2
